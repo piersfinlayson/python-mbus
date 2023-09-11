@@ -4,6 +4,7 @@ python-mbus
 Python wrapper for [libmbus](http://www.rscada.se/libmbus) ([source](https://github.com/rscada/libmbus))
 
 * installation: 
+    * ```sudo apt -y install python3-pip```
     * run ```python setup.py install```
     * install pytest with ```pip install pytest pytest-cov```
     * install libmbus - once done you may also need to ```export LD_LIBRARY_PATH=/usr/local/lib```
