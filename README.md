@@ -3,7 +3,10 @@ python-mbus
 
 Python wrapper for [libmbus](http://www.rscada.se/libmbus) ([source](https://github.com/rscada/libmbus))
 
-* installation: run ```python setup.py install```
+* installation: 
+    * run ```python setup.py install```
+    * install pytest with ```pip install pytest pytest-cov pytest-pep8```
+    * install libmbus - once done you may also need to ```export LD_LIBRARY_PATH=/usr/local/lib```
 * tests: run ```py.test```
     * please adjust the serial device in pytest.ini
     * to only run tests involving the serial device, run ```py.test -m serial```
