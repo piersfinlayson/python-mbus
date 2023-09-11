@@ -29,6 +29,8 @@ class MBus:
         * port: default 8888
         """
 
+        self.handle = None
+
         import os
 
         # check all given arguments for validity
